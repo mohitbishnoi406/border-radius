@@ -1,0 +1,33 @@
+.bgcolor{
+background-color: grey;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 150px;
+animation: circle 6s infinite;
+}
+@keyframes circle {
+    0% {border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+      }
+       20%{
+        border-radius: 70% 30% 66% 34% / 49% 36% 64% 51% ;
+       }
+       40%{
+        border-radius:28% 72% 46% 54% / 35% 60% 40% 65%  ;
+       }
+       60%{
+        border-radius: 62% 38% 64% 36% / 50% 37% 63% 50% ;
+       }
+       80%{
+        border-radius:49% 51% 45% 55% / 24% 18% 82% 76%  ;
+       }
+       100%{
+        border-radius: 50% 50% 50% 50% / 12% 24% 76% 88% ;
+       }
+
+       }
+    
